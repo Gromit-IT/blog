@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/240401~04 과제/style.css" />
+    <link rel="stylesheet" href="{{url_for('static', path='css/style.css')}}" />
     <script src="/240401~04 과제/script.js"></script>
     <link
       rel="stylesheet"
@@ -12,7 +12,9 @@
     />
   </head>
   <body>
-    <center><img src="메인 상단5.png" /></center>
+    <center>
+      <img src="{{url_for('static', path='image/메인 상단5.png')}}" />
+    </center>
     <!-- ###center 태그 사용 : 가운데 정렬, &nbsp; : 뛰어쓰기 -->
     <h2>
       <i class="fas fa-paw"></i>안녕하세요. 웹 개발 공부를 시작한 웹린이의
