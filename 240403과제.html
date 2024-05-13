@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/240401~04 과제/style.css" />
+    <script src="/240401~04 과제/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <center><img src="메인 상단5.png" /></center>
+    <!-- ###center 태그 사용 : 가운데 정렬, &nbsp; : 뛰어쓰기 -->
+    <h2>
+      <i class="fas fa-paw"></i>안녕하세요. 웹 개발 공부를 시작한 웹린이의
+      블로그 입니다.<i class="fas fa-paw"></i>
+    </h2>
+    <p><i class="fas fa-dog"></i> 웹린이의 정보</p>
+    <h4>
+      <ul>
+        <li>전공 : 전자공학과</li>
+        <li>MBTI : ESFP</li>
+        <li>취미, 관심분야 : 재태크, 코딩..?, 노래 듣기, 게임</li>
+      </ul>
+    </h4>
+    <h4>
+      <i class="fas fa-cat"></i> 웹린이의 또다른 블로그를 구경하고 싶다면?
+    </h4>
+    <ul>
+      <h4>
+        <li>
+          <a href="https://blog.naver.com/crescent_up">재테크 블로그(Naver)</a>
+        </li>
+      </h4>
+      <h4>
+        <li>
+          <a href="https://velog.io/@cheeselee/posts">웹 개발 블로그(Velog)</a>
+        </li>
+      </h4>
+    </ul>
+    <br />
+    <h4>
+      <i class="fab fa-itunes-note"></i> 노래 추천 해주세요!<i
+        class="fab fa-itunes-note"
+      ></i>
+    </h4>
+
+    <form>
+      <label for-="singer"></label>
+      <input
+        type="text"
+        id="singer"
+        name="singer"
+        placeholder="가수 이름을 입력하세요."
+      />
+      <label for-="music"></label>
+      <input
+        type="text"
+        id="music"
+        name="music"
+        placeholder="노래제목을 입력하세요."
+      />
+      <label for="link"></label>
+      <input
+        type="text"
+        id="link"
+        name="link"
+        placeholder="노래 URL을 입력하세요."
+      />
+      <button type="button" onclick="displayText()">게시하기</button>
+    </form>
+
+    <div class="output-box" id="output"></div>
+
+    <form action="URL" method="POST" class="loginbtn">
+      &nbsp;&nbsp;&nbsp;<input
+        type="text"
+        name="name"
+        placeholder="아이디"
+        required
+      />
+      <input type="password" name="password" placeholder="비밀번호" />
+      <input type="submit" value="제출" />
+    </form>
+    <br />
+    <hr />
+    <center><h2>전체보기</h2></center>
+    <form action="URL" method="POST" style="text-align: right">
+      <!-- ###style 사용 text-align : 을 통해 정렬 기능 -->
+      <input type="text" placeholder="검색어를 입력하세요." />
+      <input type="submit" value="검색" />
+    </form>
+
+    <br />
+    <br />
+    <div class="container">
+      <a
+        href="https://velog.io/@cheeselee/%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EC%95%84%EB%A6%AC-1%EC%9D%BC%EC%B0%A8HTML-Frontend"
+        ><img src="1..png" width="500" height="500" class="image1"
+      /></a>
+      <a
+        href="https://velog.io/@cheeselee/%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EC%95%84%EB%A6%AC-2%EC%9D%BC%EC%B0%A8CSS-Frontend"
+        ><img src="css기초.png" width="500" height="500" class="image2"
+      /></a>
+    </div>
+    <br />
+    <div class="tx">
+      <p class="k2">
+        <a
+          href="https://velog.io/@cheeselee/%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EC%95%84%EB%A6%AC-1%EC%9D%BC%EC%B0%A8HTML-Frontend"
+          >웹 개발 동아리 1일차</a
+        >
+      </p>
+      <p class="k3">
+        <a
+          href="https://velog.io/@cheeselee/%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EC%95%84%EB%A6%AC-2%EC%9D%BC%EC%B0%A8CSS-Frontend"
+          >웹 개발 동아리 2일차</a
+        >
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+  </body>
+</html>

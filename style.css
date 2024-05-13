@@ -1,0 +1,72 @@
+body {
+  background-color: #dee7e9;
+}
+
+a:link {
+  color: #63b7b7;
+}
+
+a:visited {
+  color: #a020f0;
+}
+
+a:active {
+  color: #fffdd0;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.image1 {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+.image2 {
+  position: absolute;
+  left: 1200px;
+  top: 0px;
+}
+
+.tx {
+  position: relative;
+}
+
+.k2 {
+  position: absolute;
+  margin-left: 350px;
+  font-size: 18px;
+  color: gray;
+}
+
+.k3 {
+  position: absolute;
+  margin-left: 1350px;
+  font-size: 18px;
+  color: gray;
+}
+
+.loginbtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.output-box {
+  border: 3px solid black;
+  padding: 8px;
+  border-radius: 5px;
+  width: 800px;
+  height: 300px;
+}
